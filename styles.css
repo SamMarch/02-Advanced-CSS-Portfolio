@@ -40,12 +40,32 @@ section {
     border-radius: 5px;
 }
 
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    color: #000;
+    background-color: #ddd;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
 footer {
     background: #333;
     color: #f4f4f4;
     text-align: center;
     padding: 20px;
     margin-top: 10px;
+}
+
+footer i {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 @media screen and (max-width: 600px) {
